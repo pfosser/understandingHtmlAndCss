@@ -9,6 +9,13 @@ body {
 nav {
     position: sticky;
     top: 0;
+    background-color: white;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 0.25rem;
+    line-height: 1.5rem;
 }
 
 main {
