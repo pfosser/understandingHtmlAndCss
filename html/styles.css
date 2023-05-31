@@ -47,6 +47,14 @@ main {
     margin-block: 0.5rem;
 }
 
+#testimonials h2 {
+    order: -2;
+}
+
+blockquote.featured {
+    order: -1;
+}
+
 .resume-fieldset {
     border-inline: none;
     border-block: none;
@@ -80,4 +88,8 @@ main {
     background-color: black;
     color: white;
     display: flex;
+}
+
+#aboutme aside {
+    order: 10;
 }
