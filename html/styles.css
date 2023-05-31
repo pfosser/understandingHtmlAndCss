@@ -10,14 +10,17 @@ nav {
     position: sticky;
     inset-inline-start: 0;
     background-color: white;
-    text-align: center;
+}
+
+nav ul {
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin-inline: 0.25rem;
     margin-block: 0;
     line-height: 1.5rem;
+    list-style: none;
 }
 
 main {
@@ -28,6 +31,10 @@ main {
     border-inline-end: solid 2px black;
     margin-inline: auto;
     margin-block: 0;
+}
+
+#testimonials {
+    display: flex;
 }
 
 #testimonials blockquote {
@@ -64,8 +71,6 @@ main {
 }
 
 .my-picture {
-    /* float: inline-start; */
-    float: left; /* TODO: change when browser support improves! */
     max-inline-size: 75px;
     margin-inline-end: 1rem;
 }
@@ -73,5 +78,5 @@ main {
 #aboutme {
     background-color: black;
     color: white;
-    display: flow-root;
+    display: flex;
 }
