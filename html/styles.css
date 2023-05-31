@@ -35,6 +35,7 @@ main {
 
 #testimonials {
     display: flex;
+    flex-direction: row-reverse;
 }
 
 #testimonials blockquote {
