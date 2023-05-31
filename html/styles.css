@@ -14,6 +14,8 @@ nav {
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
+    margin-inline: 0;
 }
 
 nav ul li {
@@ -35,6 +37,7 @@ main {
 
 #testimonials {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
 }
 
@@ -88,6 +91,7 @@ blockquote.featured {
     background-color: black;
     color: white;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #aboutme aside {
