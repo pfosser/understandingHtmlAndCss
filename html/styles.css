@@ -4,6 +4,7 @@
 
 body {
     font-size: 16px;
+    display: grid;
 }
 
 nav {
@@ -103,4 +104,8 @@ blockquote.featured {
 
 #aboutme aside {
     order: 10;
+}
+
+#portfolio {
+    display: grid;
 }
