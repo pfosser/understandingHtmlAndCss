@@ -35,6 +35,10 @@ main {
     margin-block: 0;
 }
 
+.flex-header, .motto {
+    flex-basis: 100%;
+}
+
 #testimonials {
     display: flex;
     flex-wrap: wrap;
@@ -56,6 +60,7 @@ main {
 
 blockquote.featured {
     order: -1;
+    flex: 1 0 auto;
 }
 
 .resume-fieldset {
