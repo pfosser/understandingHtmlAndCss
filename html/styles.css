@@ -112,14 +112,18 @@ blockquote.featured {
     grid-template-areas: "portfolio anchor img1 img2 img3"
                          "portfolio anchor img4 img5 img6";
     grid-gap: 10px;
+    align-items: end;
 }
 
 #portfolio h2 {
     grid-area: portfolio;
+    align-self: start;
+    margin-block: 0;
 }
 
 #portfolio img {
     max-inline-size: 100%;
+    align-self: start;
 }
 
 img.anchor {
