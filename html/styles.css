@@ -108,4 +108,10 @@ blockquote.featured {
 
 #portfolio {
     display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+#portfolio img {
+    max-inline-size: 100%;
 }
