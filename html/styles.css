@@ -13,6 +13,15 @@ body {
 h1, h2 {
     font-family: 'Dosis', sans-serif;
     font-weight: 300;
+    color: #3d3d3d;
+}
+
+h1 {
+    margin-block-end: 0;
+}
+
+h2 {
+    margin-block-end: 0.75rem;
 }
 
 input, select, textarea {
@@ -45,6 +54,7 @@ main {
     margin-block: 0;
     display: grid;
     grid-template-columns: 50px 1fr 50px;
+    row-gap: 10px;
 }
 
 main > * {
@@ -120,6 +130,10 @@ blockquote.featured {
     flex-wrap: wrap;
 }
 
+#aboutme h2 {
+    color: white;
+}
+
 #aboutme aside {
     order: 10;
 }
@@ -131,6 +145,8 @@ blockquote.featured {
                          "portfolio anchor img4 img5 img6";
     grid-gap: 10px;
     align-items: end;
+    background-color: #f74d65;
+    padding-block: 1rem;
 }
 
 #portfolio h2 {
