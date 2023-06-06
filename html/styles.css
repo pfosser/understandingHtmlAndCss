@@ -61,6 +61,10 @@ main > * {
     grid-column: 2;
 }
 
+.social_logo {
+    inline-size: 1rem;
+}
+
 .full-bleed {
     grid-column: 1 / span 3;
     padding-inline: 2rem;
