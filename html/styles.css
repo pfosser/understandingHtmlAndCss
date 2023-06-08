@@ -70,7 +70,7 @@ main > * {
     padding-inline: 2rem;
 }
 
-.flex-header, .motto {
+.flex-header, .motto, #aboutme footer {
     flex-basis: 100%;
 }
 
@@ -93,9 +93,13 @@ main > * {
     order: -2;
 }
 
-blockquote.featured {
+#testimonials blockquote.featured {
     order: -1;
     flex: 1 0 auto;
+    background-color: black;
+    color: white;
+    margin-inline-start: 1rem;
+    font-weight: bold;
 }
 
 .resume-fieldset {
@@ -114,8 +118,11 @@ blockquote.featured {
 
 .label-standard {
     display: block;
-    margin-inline: 0.125rem;
-    margin-block: 0.125rem;
+    margin-block-end: 0.125rem;
+}
+
+.label-standard, .resume-fieldset legend {
+    font-size: 0.875rem;
 }
 
 .field {
@@ -140,6 +147,15 @@ blockquote.featured {
 
 #aboutme aside {
     order: 10;
+    text-align: center;
+}
+
+#aboutme footer {
+    text-align: center;
+}
+
+#aboutme footer a, #aboutme footer a:visited, #aboutme footer a:hover {
+    color: white;
 }
 
 #portfolio {
